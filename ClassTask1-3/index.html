@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Grade Calculator</h1>
+
+        <label for="name">Student Name</label>
+        <input type="text" id="name" placeholder="e.g. Ali">
+
+        <label for="marks">Marks (0-100)</label>
+        <input type="number" id="marks" placeholder="e.g. 78" min="0" max="100">
+
+        <button id="calcBtn">Calculate Grade</button>
+
+        <!-- the grade or the error message appears here -->
+        <div id="result"></div>
+    </div>
+
+</body>
+</html>
